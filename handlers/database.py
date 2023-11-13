@@ -12,8 +12,6 @@ database = dbclient[DB_NAME]
 user_data = database['users']
 collection = database['token']
 
-
-
 async def present_user(user_id : int):
     found = user_data.find_one({'_id': user_id})
     return bool(found)
