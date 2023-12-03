@@ -7,7 +7,7 @@ class Config(object):
   API_HASH = os.environ.get("API_HASH", "7e55bf98380e416d5de1c4c567395a32")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6928812980:AAECZbBPAGKOD7fHSZ2pqxlclcEEMynpQKA")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "FileXstoreRobot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001813638350"))
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001964234310"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "vnshortener.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "6c5db31980885e46221e90106f1d47b8295aa0f8")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "5123039648"))
